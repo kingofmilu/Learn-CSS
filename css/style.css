@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul {
+    position:absolute;
+    top: 2.7rem;
+    left: 0;
+}
+
+.menu li {
+    float: left;
+    width: 150px;
+    line-height: 1.5rem;
+    position: relative;
+    text-align: center;
+    background-color: teal;
+    padding: 0.6rem 0;
+}
+
+.menu li:hover{
+    background-color: aqua;
+}
+
+#login{
+    float: right;
+}
+
+.menu ul {
+    display: none;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.menu ul ul {
+    left: 150px;
+    top: 0;
+}
